@@ -1,0 +1,81 @@
+{
+  "corridorId": "harwich-rotterdam",
+  "title": "Harwich - Rotterdam",
+  "analysisWindow": "2018-2021",
+  "origin": {
+    "name": "Harwich port area",
+    "latitude": 51.9703885,
+    "longitude": 1.5463330
+  },
+  "destination": {
+    "name": "Rotterdam port area",
+    "latitude": 51.9812249,
+    "longitude": 3.9998235
+  },
+  "summary": {
+    "voyageCount": 3113,
+    "totalCo2Kg": 428255584.4,
+    "weightedCo2PerKm": 1089.7033,
+    "directionalBalancePercent": 83.8,
+    "originToDestinationVoyages": 1694,
+    "destinationToOriginVoyages": 1419,
+    "roRoCo2SharePercent": 53.2378,
+    "passengerCo2SharePercent": 45.9582
+  },
+  "annualEvidence": [
+    {
+      "year": 2018,
+      "voyageCount": 554,
+      "vesselCount": 34,
+      "totalCo2Kg": 134534295.3,
+      "weightedCo2PerKm": 1685.8300,
+      "originToDestinationVoyages": 307,
+      "destinationToOriginVoyages": 247,
+      "roRoCo2SharePercent": 67.0924,
+      "passengerCo2SharePercent": 31.3106,
+      "portEnergyCo2SharePercent": 10.4032
+    },
+    {
+      "year": 2019,
+      "voyageCount": 668,
+      "vesselCount": 39,
+      "totalCo2Kg": 160696028.5,
+      "weightedCo2PerKm": 1975.0747,
+      "originToDestinationVoyages": 361,
+      "destinationToOriginVoyages": 307,
+      "roRoCo2SharePercent": 33.1110,
+      "passengerCo2SharePercent": 66.6126,
+      "portEnergyCo2SharePercent": 7.0276
+    },
+    {
+      "year": 2020,
+      "voyageCount": 647,
+      "vesselCount": 31,
+      "totalCo2Kg": 31033623.3,
+      "weightedCo2PerKm": 375.4416,
+      "originToDestinationVoyages": 391,
+      "destinationToOriginVoyages": 256,
+      "roRoCo2SharePercent": 71.6073,
+      "passengerCo2SharePercent": 27.6847,
+      "portEnergyCo2SharePercent": 12.0540
+    },
+    {
+      "year": 2021,
+      "voyageCount": 1244,
+      "vesselCount": 56,
+      "totalCo2Kg": 101991637.3,
+      "weightedCo2PerKm": 683.6909,
+      "originToDestinationVoyages": 635,
+      "destinationToOriginVoyages": 609,
+      "roRoCo2SharePercent": 61.0846,
+      "passengerCo2SharePercent": 38.2969,
+      "portEnergyCo2SharePercent": 10.2468
+    }
+  ],
+  "display": {
+    "routeHeightMeters": 2500.0,
+    "animationSeconds": 12.0,
+    "yearDisplaySeconds": 5.0,
+    "routeSamples": 72
+  }
+}
