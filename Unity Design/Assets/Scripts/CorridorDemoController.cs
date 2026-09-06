@@ -435,13 +435,13 @@ namespace NorthSeaEmissions
         {
             double roRoReduction = (_currentEvidence.roRoCo2SharePercent / 100.0) * _roRoReduction;
             double passengerReduction = (_currentEvidence.passengerCo2SharePercent / 100.0) * _passengerReduction;
-            double shipTypeReduction = Math.Min(0.95, roRoReduction + passengerReduction);
+            double shipTypeReduction = Math.Min(1, roRoReduction + passengerReduction);
             double remainingAfterShipMeasures = 1.0 - shipTypeReduction;
             double shorePowerReduction = remainingAfterShipMeasures
                 * (_currentEvidence.portEnergyCo2SharePercent / 100.0)
                 * _shorePowerCoverage
                 * ShorePowerEfficiency;
-            double reductionFraction = Math.Min(0.95, shipTypeReduction + shorePowerReduction);
+            double reductionFraction = Math.Min(1, shipTypeReduction + shorePowerReduction);
 
             _scenarioAvoidedCo2Kg = _currentEvidence.totalCo2Kg * reductionFraction;
             _scenarioTotalCo2Kg = _currentEvidence.totalCo2Kg - _scenarioAvoidedCo2Kg;
